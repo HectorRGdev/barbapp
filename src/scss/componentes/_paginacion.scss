@@ -1,0 +1,20 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+@use "sass:color";
+
+.paginacion{
+    padding: v.$separacion 0;
+    margin-right: 1rem;
+    @include m.telefono{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        margin: 0 0 1rem 0;
+    }
+}
+
+.ocultar{
+    visibility: hidden;
+}
+
