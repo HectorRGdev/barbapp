@@ -1,5 +1,5 @@
 <h1 class="nombre-pagina">Reserva tu Cita</h1>
-<p class="descripcion-pagina">Elige tus sercicios poniendo tus datos</p>
+<p class="descripcion-pagina">Elige tus servicios poniendo tus datos</p>
 
 <?php
 
@@ -18,7 +18,7 @@
     </nav>
 
     <div id="paso-1" class="seccion">
-        <h2>Sercicios</h2>
+        <h2>Servicios</h2>
         <p class="text-center">Elige tus servicios a continuación</p>
         <div id="servicios" class="listado-servicios"></div>
     </div>
